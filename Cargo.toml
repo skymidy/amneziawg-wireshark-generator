@@ -1,0 +1,11 @@
+[package]
+name = "awg-sig-gen"
+version = "0.1.0"
+edition = "2021"
+description = "CLI tool to capture TLS ClientHello packet signatures for AmneziaWG"
+license = "MIT"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+anyhow = "1"
+regex = "1"
